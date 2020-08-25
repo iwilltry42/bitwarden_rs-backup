@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.12
 
 RUN addgroup -S app && adduser -S -G app app
 
